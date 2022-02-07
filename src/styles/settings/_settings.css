@@ -1,0 +1,26 @@
+:root {
+  --main-bg-color: #fffffd;
+  --secondary-bg-color: #f0ecec;
+  --title-color: whitesmoke;
+  --text-color: #141414;
+  --button-primary: #ffe21d;
+  --button-primary-pressed: #ffe21d;
+  --button-secondary: #24afff;
+  --button-secondary-pressed: #248bff;
+  --input-static: #ffffff;
+  --input-active: #158ed4;
+  --input-error: #f26c6c;
+  --input-success: #27b667;
+  --input-warning: #f8992c;
+  --placeholder-color: #5d5d5d;
+
+  --small-font-size: 10px;
+  --normal-font-size: 14px;
+  --medium-font-size: 24px;
+  --big-font-size: 40px;
+  
+  --margin-default: 32px;
+  --padding-default: 16px;
+
+  --font: 'Montserrat', sans-serif;
+}
