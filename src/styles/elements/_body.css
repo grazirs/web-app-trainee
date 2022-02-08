@@ -1,5 +1,5 @@
 body {
-  background-color: var(--main-bg-color);
+  background-color: var(--secondary-bg-color);
   font-size: var(--normal-font-size);
   font-family: var(--font);
   padding: var(--padding-default);
