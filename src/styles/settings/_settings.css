@@ -3,8 +3,9 @@
   --secondary-bg-color: #f0ecec;
   --title-color: whitesmoke;
   --text-color: #141414;
+  --secondary-text-color: white;
   --button-primary: #ffe21d;
-  --button-primary-pressed: #ffe21d;
+  --button-primary-pressed: #ffd21d;
   --button-secondary: #24afff;
   --button-secondary-pressed: #248bff;
   --input-static: #ffffff;
@@ -19,8 +20,9 @@
   --medium-font-size: 24px;
   --big-font-size: 40px;
   
-  --margin-default: 32px;
+  --margin-default: 16px;
   --padding-default: 16px;
+  --letter-spacing: 1.3px;
 
   --font: 'Montserrat', sans-serif;
 }

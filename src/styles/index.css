@@ -2,3 +2,4 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
 @import 'elements/_body.css';
+@import 'components/_buttons.css'
