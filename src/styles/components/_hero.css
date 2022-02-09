@@ -1,0 +1,12 @@
+.hero{
+  display: flex;
+  width: 45vw;
+  height:80vh;
+  justify-content: center;
+  align-items: center;
+}
+.hero__title {
+  font-size: var(--big-font-size);
+  color: var(--title-color);
+  margin: var(--margin-default);
+}
