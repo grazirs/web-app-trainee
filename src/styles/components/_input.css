@@ -1,4 +1,4 @@
-.input, .container__input{
+.input, .input-icon{
   width: 240px;
   height: 35px;
   border-radius: 20px;
@@ -13,10 +13,6 @@
   font-weight: 700;
 }
 
-.input--static {
-  font-weight: 400;
-}
-
 .input--active:focus {
   outline: auto var(--input-active);
 }
@@ -25,51 +21,51 @@
   opacity: 0.5;
 }
 
-.container{
+.input-icon{
   position: relative;
   width: 50%;
 }
 
-.container__input--error::placeholder {
+.input--error::placeholder {
   color: var(--input-error-text);
 }
 
-.container__input--error {
+.input--error {
   background-color: var(--input-error);
   
 }
 
-.container__icon--error {
+.input-icon__icon--error {
   color: var(--input-error-text);
   position: absolute;
   left: 220px;
   top: 20px;
 }
 
-.container__input--success {
+.input--success {
   background-color: var(--input-success);
 }
 
-.container__input--success::placeholder {
+.input--success::placeholder {
   color: var(--input-success-text);
 }
 
-.container__icon--success {
+.input-icon__icon--success {
   color: var(--input-success-text);
   position: absolute;
   left: 498px;
   top: 20px;
 }
 
-.container__input--warning {
+.input--warning {
   background-color: var(--input-warning);
 }
 
-.container__input--warning::placeholder {
+.input--warning::placeholder {
   color: var(--input-warning-text);
 }
 
-.container__icon--warning {
+.input-icon__icon--warning {
   color: var(--input-warning-text);
   position: absolute;
   right: 115px;
