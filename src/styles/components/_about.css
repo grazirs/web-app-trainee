@@ -1,0 +1,28 @@
+.about{
+  background: var(--main-bg-color);
+  height: 550px;
+}
+.about__card {
+  display: flex;
+  justify-content: center;
+  margin: var(--margin-sections);
+  padding: var(--padding-default);
+  height: 370px;
+  width: 90%;
+}
+
+.about__img {
+  width: 50%;
+}
+
+.about__title{
+  text-align: center;
+  font-size: var(--big-font-size);
+  padding-top: var(--padding-default);
+}
+
+.about__text {
+  text-align: justify;
+  font-size: var(--medium-font-size);
+  line-height: var(--line-spacing);
+}

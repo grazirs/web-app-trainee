@@ -5,7 +5,9 @@
 @import 'elements/_body.css';
 @import 'elements/_links.css';
 @import 'elements/_lists.css';
+@import 'components/_about.css';
 @import 'components/_buttons.css';
+@import 'components/_cards.css';
 @import 'components/_input.css';
 @import 'components/_header.css';
 @import 'components/_hero.css';

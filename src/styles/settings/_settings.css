@@ -3,7 +3,7 @@
   --secondary-color: #d2231f;
   --tertiary-color:#0d0e36;
   --main-bg-color: #fffffd;
-  --secondary-bg-color: #f0ecec;
+  --secondary-bg-color: #ebebeb;
   --tertiary-bg-color:#555;
   --title-color: #f8f8f8;
   --text-color: #141414;
@@ -34,6 +34,8 @@
   --padding-smaller:20px;
   --margin-sections: 45px;
   --letter-spacing: 1.3px;
+  --line-spacing: 32px;
+
 
   --font: "Montserrat", sans-serif;
 }
