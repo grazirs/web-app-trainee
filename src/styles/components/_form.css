@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.apply__img{
+  width: 100%;
+  height: 300px;
+  background: url("../../img/bg.png");
+}
 .apply__input{
   display: flex;
   flex-direction: column;
@@ -31,17 +36,21 @@
 }
 
 ::-webkit-file-upload-button{
-  color: var(--secondary-text-color);
-  background: var(--tertiary-color);
+  color: var(--text-color);
+  font-weight: 700;
   padding: var(--padding-smaller);
-  border: none;
+  border: 2px solid var(--tertiary-color);
   border-radius: 50px;
   box-shadow: 1px 0 1px 1px var(--secondary-color);
   outline:none;
-  width: 225px;
+  width: 200px;
   cursor: pointer;
 }
 
+::-webkit-file-upload-button:hover{
+  background: var(--button-secondary);
+  color: var(--secondary-text-color);
+}
 .apply__button{
   display: flex;
   justify-content: center;

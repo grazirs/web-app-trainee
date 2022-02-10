@@ -1,7 +1,8 @@
 .about{
   background: var(--main-bg-color);
-  height: 550px;
+  height: 610px;
 }
+
 .about__card {
   display: flex;
   justify-content: center;
