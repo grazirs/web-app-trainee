@@ -1,0 +1,77 @@
+.input, .container__input{
+  width: 240px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: var(--padding-default);
+  margin: var(--margin-default);
+  color: var(--text-color);
+  font-family: var(--font);
+  font-size: var(--small-font-size);
+  background-color: var(--main-bg-color);
+  font-weight: 700;
+}
+
+.input--static {
+  font-weight: 400;
+}
+
+.input--active:focus {
+  outline: auto var(--input-active);
+}
+
+.input--disabled {
+  opacity: 0.5;
+}
+
+.container{
+  position: relative;
+  width: 50%;
+}
+
+.container__input--error::placeholder {
+  color: var(--input-error-text);
+}
+
+.container__input--error {
+  background-color: var(--input-error);
+  
+}
+
+.container__icon--error {
+  color: var(--input-error-text);
+  position: absolute;
+  left: 220px;
+  top: 20px;
+}
+
+.container__input--success {
+  background-color: var(--input-success);
+}
+
+.container__input--success::placeholder {
+  color: var(--input-success-text);
+}
+
+.container__icon--success {
+  color: var(--input-success-text);
+  position: absolute;
+  left: 498px;
+  top: 20px;
+}
+
+.container__input--warning {
+  background-color: var(--input-warning);
+}
+
+.container__input--warning::placeholder {
+  color: var(--input-warning-text);
+}
+
+.container__icon--warning {
+  color: var(--input-warning-text);
+  position: absolute;
+  right: 115px;
+  top: 20px;
+}
