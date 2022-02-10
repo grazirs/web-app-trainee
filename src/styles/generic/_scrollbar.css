@@ -1,19 +1,21 @@
 /* Works on Mozilla*/
-
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--secondary-color) var(--tertiary-bg-color);
 }
+
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 0.2vw;
   border-radius: 50px;
 }
+
 *::-webkit-scrollbar-track {
   scrollbar-color: var(--secondary-color);
   background: var(--primary-color);
   border-radius: 20px;
 }
+
 *::-webkit-scrollbar-thumb {
   background-color: var(--secondary-color);
   border-radius: 500px;

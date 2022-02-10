@@ -5,6 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .header__navbar {
   display: flex;
   justify-content: space-evenly;
@@ -12,9 +13,11 @@
   height: 100px;
   padding-top: var(--padding-navbar);
 }
+
 .navbar__img {
   width: 5%;
 }
+
 .navbar__list {
   display: flex;
 }
