@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .hero__title {
   font-size: var(--big-font-size);
   color: var(--title-color);
