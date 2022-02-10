@@ -1,0 +1,29 @@
+.footer{
+  height:150px;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  color: var(--secondary-text-color);
+}
+.footer__line{
+  display: flex;
+  flex-direction: row;
+}
+.footer__img{
+  margin-top: var(--margin-sections);
+  height:50%;
+  
+}
+.footer__text{
+  text-align: center;
+  font-size: var(--small-font-size);
+}
+.footer_top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer__link{
+  padding: 0px;
+  font-size: var(--normal-font-size);
+}

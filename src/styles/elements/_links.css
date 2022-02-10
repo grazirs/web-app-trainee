@@ -1,0 +1,8 @@
+a {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+  font-weight: bolder;
+  font-size: var(--medium-font-size);
+  padding: var(--padding-default);
+  position: relative;
+}
