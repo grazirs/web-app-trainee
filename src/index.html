@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap"rel="stylesheet"/>
-    <title>Trainee Program 2022</title>
+    <title>Codeminer42-Trainee Program 2022</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <nav class="header__navbar">
         <img class="navbar__img" src="img/logo.svg" alt="Logo da Codeminer42" />
         <ul class="navbar__list">
@@ -24,12 +24,48 @@
           </li>
         </ul>
         <button class="button button--static">
-          <a href="#contact">APPLY NOW</a>
+          <a href="#applynow">APPLY NOW</a>
         </button>
       </nav>
       <div class="hero">
         <h1 class="hero__title">Trainee Program 2022</h1>
       </div>
     </header>
+    <main>
+      <section class="apply" id="applynow">
+        <h2 class="apply__title">Apply here</h2>
+        <form class="apply__form" action="" method="post">
+          <div class="apply__input">
+            <label for="">Full Name:</label>
+            <input type="text" class="input input--active" placeholder="Type your full name here">
+
+            <label for="">Email:</label>
+            <input type="email" class="input input--active" placeholder="myemail@example.com">
+
+            <label for="">Phone Number:</label>
+            <input type="text" class="input input--active" placeholder="(00) 0 0000-0000">
+
+            <label for="">City:</label>
+            <input type="text" class="input input--active" placeholder="Type the city here">
+
+            <label for="">Introduce yourself:</label>
+            <textarea type="text" class="input input--active input--active--describe" placeholder="Describe your skills"></textarea>
+
+            <label for="">LinkedIn:</label>
+            <input type="url" class="input input--active" placeholder="LinkedIn profile link, if you have one">
+
+            <label for="">Github:</label>
+            <input type="url" class="input input--active" placeholder="Github profile link, if you have one">
+            
+            <label for="" >Resume:</label>
+            <div for="" class="apply__label"></div>
+            <input type="file" class="apply__file">
+          </div>
+          <div class="apply__button">
+            <button type ="submit" class="button button--secondary--static">Send</button>
+          </div>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
