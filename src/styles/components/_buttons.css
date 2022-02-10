@@ -12,33 +12,42 @@
   letter-spacing: var(--letter-spacing);
   cursor: pointer;
 }
+
 .button--static {
   border: var(--button-primary) solid 2px;
 }
+
 .button--static:hover {
   background-color: var(--button-primary);
 }
+
 .button--active {
   background-color: var(--button-primary-pressed);
 }
+
 .button--disabled {
   background-color: var(--button-primary);
   opacity: 0.4;
 }
+
 .button--secondary {
   color: var(--secondary-text-color);
 }
+
 .button--secondary--static {
   border: var(--button-secondary) solid 2px;
   color: var(--text-color);
 }
+
 .button--secondary--static:hover {
   background-color: var(--button-secondary);
   color: var(--secondary-text-color);
 }
+
 .button--secondary--active {
   background-color: var(--button-secondary-pressed);
 }
+
 .button--secondary--disabled {
   background-color: var(--button-secondary);
   opacity: 0.4;
