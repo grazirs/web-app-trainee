@@ -5,9 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Design System</title>
   </head>
   <body>
     <h1>Design System</h1>
+    <div>
+      <button class="button button--static">STATIC</button>
+      <button class="button button--active">PRESSED</button>
+      <button class="button button--disabled">DISABLED</button>
+    </div>
+    <div>
+      <button class="button button--secondary button--secondary--static">STATIC</button>
+      <button class="button button--secondary button--secondary--active">PRESSED</button>
+      <button class="button button--secondary button--secondary--disabled">DISABLED</button>
+    </div>
+    <div>
+      <input type="text" class="input input--static" placeholder="Static input placeholder">
+      <input type="text" class="input input--active" placeholder="Active input text">
+      <input type="text" class="input input--disabled" placeholder="Disabled input" disabled>
+    </div>
+    <div class="input-icon">
+      <input type="text" class="input input--error" placeholder="Input error!">
+      <i class="input-icon__icon--error"data-feather="x"></i>
+      <input type="text" class="input input--success" placeholder="Input success :)">
+      <i class="input-icon__icon--success"data-feather="check"></i>
+      <input type="text" class="input input--warning" placeholder="This needs your attention">
+      <i class="input-icon__icon--warning"data-feather="alert-triangle"></i>
+    </div>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

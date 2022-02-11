@@ -1,0 +1,73 @@
+.input{
+  width: 240px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding-left: var(--padding-default);
+  margin: var(--margin-default);
+  color: var(--text-color);
+  font-family: var(--font);
+  font-size: var(--small-font-size);
+  background-color: var(--main-bg-color);
+  font-weight: 700;
+}
+
+.input--active:focus {
+  outline: auto var(--input-active);
+}
+
+.input--disabled {
+  opacity: 0.5;
+}
+
+.input-icon{
+  position: relative;
+  width: 50%;
+}
+
+.input--error::placeholder {
+  color: var(--input-error-text);
+}
+
+.input--error {
+  background-color: var(--input-error);
+  
+}
+
+.input-icon__icon--error {
+  color: var(--input-error-text);
+  position: absolute;
+  left: 220px;
+  top: 20px;
+}
+
+.input--success {
+  background-color: var(--input-success);
+}
+
+.input--success::placeholder {
+  color: var(--input-success-text);
+}
+
+.input-icon__icon--success {
+  color: var(--input-success-text);
+  position: absolute;
+  left: 498px;
+  top: 20px;
+}
+
+.input--warning {
+  background-color: var(--input-warning);
+}
+
+.input--warning::placeholder {
+  color: var(--input-warning-text);
+}
+
+.input-icon__icon--warning {
+  color: var(--input-warning-text);
+  position: absolute;
+  right: 115px;
+  top: 20px;
+}
