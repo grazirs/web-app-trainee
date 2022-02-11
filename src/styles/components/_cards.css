@@ -1,0 +1,40 @@
+.cards{
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+}
+
+.grid__item {
+  background: var(--main-bg-color);
+  height: 20vh;
+  margin: var(--margin-sections);
+  border-radius: 20px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-align: center;
+  padding: var(--padding-default);
+  box-shadow: 2px 2px 4px var(--tertiary-bg-color);
+}
+
+.grid__item:hover {
+border: 2px solid var(--tertiary-color);
+}
+
+.cards__title {
+  font-size: var(--big-font-size);
+}
+
+.cards__text{
+  font-size: var(--medium-font-size);
+  color:  var(--text-color);
+  padding: var(--padding-default);
+  
+}
